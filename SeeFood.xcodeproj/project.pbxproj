@@ -13,6 +13,7 @@
 		80CD0ECF2398690500217E17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80CD0ECD2398690500217E17 /* Main.storyboard */; };
 		80CD0ED12398690700217E17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80CD0ED02398690700217E17 /* Assets.xcassets */; };
 		80CD0ED42398690700217E17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80CD0ED22398690700217E17 /* LaunchScreen.storyboard */; };
+		80CD0EDC23986A2F00217E17 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 80CD0EDB23986A2F00217E17 /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		80CD0ED02398690700217E17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80CD0ED32398690700217E17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		80CD0ED52398690700217E17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80CD0EDB23986A2F00217E17 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				80CD0ED02398690700217E17 /* Assets.xcassets */,
 				80CD0ED22398690700217E17 /* LaunchScreen.storyboard */,
 				80CD0ED52398690700217E17 /* Info.plist */,
+				80CD0EDB23986A2F00217E17 /* Inceptionv3.mlmodel */,
 			);
 			path = SeeFood;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				80CD0ECC2398690500217E17 /* ViewController.swift in Sources */,
+				80CD0EDC23986A2F00217E17 /* Inceptionv3.mlmodel in Sources */,
 				80CD0EC82398690500217E17 /* AppDelegate.swift in Sources */,
 				80CD0ECA2398690500217E17 /* SceneDelegate.swift in Sources */,
 			);
